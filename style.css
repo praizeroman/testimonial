@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+}
+
+main{
+    max-width:50% 50%;
+    background-color: rgba(116, 112, 112, 0.986);
+    justify-self: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 15px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+img{
+    width: 30px;
+    border-radius: 18px;
+}
+
+/* daniel clifford */
+#daniel-clifford{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#name-1{
+color:  hsl(0, 0%, 81%);
+}
+
+#grad-1{
+color:  hsl(0, 0%, 81%);
+opacity: 50%;
+}
+
+#txt-1{
+    color:  hsl(0, 0%, 81%);
+    font-weight: 600;
+}
+
+#txt-2{
+    color:  hsl(0, 0%, 81%);
+    opacity: 70%;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+/* jonathan walters */
